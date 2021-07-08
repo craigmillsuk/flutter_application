@@ -4,7 +4,7 @@ A new Flutter project.
 
 The hello world application.
 
-branch: main
+Branches: main
 
 ## Getting Started
 
