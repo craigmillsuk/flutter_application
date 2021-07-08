@@ -5,6 +5,7 @@ A new Flutter project.
 The hello world application.
 
 Branches: first_wip
+Branches: main
 
 ## Getting Started
 
