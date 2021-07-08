@@ -4,6 +4,8 @@ A new Flutter project.
 
 The hello world application.
 
+branch: main
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
