@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hello_world/screens/Home.dart';
 import 'screens/Home.dart';
+import 'screens/Pizza.dart';
+
 
 void main() => runApp(new HelloFlutterApp());
 
@@ -14,7 +16,7 @@ class HelloFlutterApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Title in App Bar"),
         ),
-        body: Home()
+        body: Pizza()
     ),
   );
   }
