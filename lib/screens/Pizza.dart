@@ -6,22 +6,56 @@ class Pizza extends StatelessWidget
 {
   @override
   Widget build(BuildContext context) {
-    return Center(child:Container(
+    return Center(
+      child:Container(
       alignment: Alignment.center,
-      color: Colors.deepOrangeAccent,
-      //width: 192.0,
-      //height: 96.0,
-      //margin: EdgeInsets.only(left: 50.0, right: 50.0, top: 50.0, bottom: 50.0),
-      margin: EdgeInsets.all(75.0),
-      child: Text("Pizza", 
-      textDirection: TextDirection.ltr,
-      style: TextStyle(
-        fontSize: 60.0,
-        decoration: TextDecoration.none,
-        fontFamily: 'Zen Tokyo Zoo',
-        fontWeight: FontWeight.w300,
-        ),
-      )
+      padding: EdgeInsets.only(top:30.0, left:15.0),
+      decoration: BoxDecoration(
+        border: Border.all(color: Colors.blueAccent),
+        color: Colors.deepOrangeAccent,
+      ),
+      child: Column(children: <Widget>[
+            Row(children: <Widget>[
+              Expanded(child: Text("Margerhita", 
+                textDirection: TextDirection.ltr,
+                style: TextStyle(
+                fontSize: 30.0,
+                fontFamily: 'Roboto',
+                fontWeight: FontWeight.w300,
+              ),
+            ),
+            ),
+              Expanded(child: Text("Tomato, Mozarella, Basil", 
+                textDirection: TextDirection.ltr,
+                style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Roboto',
+                fontWeight: FontWeight.w300,
+                ),
+              ),
+              )
+          ]),
+          Row(children: <Widget>[
+              Expanded(child: Text("Marinara", 
+                textDirection: TextDirection.ltr,
+                style: TextStyle(
+                fontSize: 30.0,
+                fontFamily: 'Roboto',
+                fontWeight: FontWeight.w300,
+              ),
+            ),
+            ),
+              Expanded(child: Text("Tomato, Garlic", 
+                textDirection: TextDirection.ltr,
+                style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Roboto',
+                fontWeight: FontWeight.w300,
+                ),
+              ),
+              )
+          ])
+      ]),
     ));
   }
 }
