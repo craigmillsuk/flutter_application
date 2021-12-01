@@ -14,7 +14,7 @@ class MargerhitaWidget extends StatelessWidget {
               ),
             ),
             ),
-              Expanded(child: Text("Tomato, Mozarella, Basil", 
+              Expanded(child: Text("Tomato, Mozarella, Basil, Pepperoni, Olives", 
                 textDirection: TextDirection.ltr,
                 style: TextStyle(
                 fontSize: 20.0,
